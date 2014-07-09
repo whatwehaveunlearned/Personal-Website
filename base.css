@@ -40,14 +40,61 @@ body {
   padding-right: 15px;
 }
 
-#myCarousel{
+#myCarousel h1{
+  font-family: Gill Sans;
+  color:black;
+  text-shadow: -1px 0 lightgrey, 0 1px lightgrey, 1px 0 lightgrey, 0 -1px lightgrey
 }
 
-#inside{
+#myCarousel h3{
+  font-family: Gill Sans;
+  color:black;
+  text-shadow: -1px 0 lightgrey, 0 1px lightgrey, 1px 0 lightgrey, 0 -1px lightgrey
+}
+
+#myCarousel p{
+  font-family: Gill Sans;
+  color:black;
+  text-shadow: -1px 0 lightgrey, 0 1px lightgrey, 1px 0 lightgrey, 0 -1px lightgrey
+}
+
+#myCarousel #gazebo{
   position: relative;
   left:150px;
+  height:450px;
+  width: 800px;
+}
+
+#myCarousel #higgs{
+  position: relative;
+  left:200px;
+  height:450px;
+  width: 750px;
+}
+
+#myCarousel #neuron{
+  position: relative;
+  left:200px;
+  height:450px;
+  width: 700px;
 }
 
 .btn-group-vertical{
   margin: 25px;
+}
+
+.img_holder{
+  position: relative;
+  float: left;
+  border: 2px solid black;
+}
+
+.holder{
+  position: relative;
+}
+
+.holder button{
+  position: absolute;
+  bottom: 0px;
+  padding: 2px;
 }
