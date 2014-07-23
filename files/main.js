@@ -16,46 +16,46 @@ $( "#homeBtn" ).click(function() {
 	});
 
 //main function
-setInterval(function main() {
+// setInterval(function main() {
 
-  	count=changeImage(count);
-  	},10000);
+//   	count=changeImage(count);
+//   	},10000);
 	
-	function changeImage(count){
-		switch(count) {
-		    case 0:
-		    	$( "#robotics" ).hide();
-				$('#higgs' ).hide();
-				$('#neuron' ).hide();
-				$('#gazebo' ).show();
-				count = count+1;
-		        break;
-		    case 1:
-		    	count = count+1;
-		       	$( "#robotics" ).hide();
-				$('#higgs' ).show();
-	  			$('#neuron' ).hide();
-	  			$('#gazebo' ).hide();
-		        break;
-		     case 2:
-		     	count = count+1;
-		    	$( "#robotics" ).hide();
-				$('#higgs' ).hide();
-	  			$('#neuron' ).show();
-	  			$('#gazebo' ).hide();
-	  			count = count+1;
-		        break;
-	        case 3:
-				count = count+1;
-		        $( "#robotics" ).show();
-				$('#higgs' ).hide();
-	  			$('#neuron' ).hide();
-	  			$('#gazebo' ).hide();
-	        break;
+// 	function changeImage(count){
+// 		switch(count) {
+// 		    case 0:
+// 		    	$( "#robotics" ).hide();
+// 				$('#higgs' ).hide();
+// 				$('#neuron' ).hide();
+// 				$('#gazebo' ).show();
+// 				count = count+1;
+// 		        break;
+// 		    case 1:
+// 		    	count = count+1;
+// 		       	$( "#robotics" ).hide();
+// 				$('#higgs' ).show();
+// 	  			$('#neuron' ).hide();
+// 	  			$('#gazebo' ).hide();
+// 		        break;
+// 		     case 2:
+// 		     	count = count+1;
+// 		    	$( "#robotics" ).hide();
+// 				$('#higgs' ).hide();
+// 	  			$('#neuron' ).show();
+// 	  			$('#gazebo' ).hide();
+// 	  			count = count+1;
+// 		        break;
+// 	        case 3:
+// 				count = count+1;
+// 		        $( "#robotics" ).show();
+// 				$('#higgs' ).hide();
+// 	  			$('#neuron' ).hide();
+// 	  			$('#gazebo' ).hide();
+// 	        break;
 
-		    default:
-		    	count = 0;
-		}
+// 		    default:
+// 		    	count = 0;
+// 		}
 
-		return(count);
-	}
+// 		return(count);
+// 	}
