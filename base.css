@@ -129,6 +129,12 @@ body {
   max-height: 200px;
 }
 
+#RoCarousel iframe {
+  width: 100%;
+  height: 200px;
+  max-height: 200px;
+}
+
 #RoCarousel {
  position: relative;
   float:left;
