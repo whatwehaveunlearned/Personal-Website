@@ -87,49 +87,55 @@ body {
   max-height: 225px;
 }
 
+#haCarousel img {
+  width: 100%;
+  height: 200px;
+  max-height: 200px;
+}
+
 #haCarousel {
   position: relative;
   float:left;
-  width: 20%;
-  height: 100px;
-  max-height: 100px;
+  width: 30%;
+  height: 200px;
+  max-height: 200px;
   margin: 5px;
 }
 
 #WdCarousel img {
   width: 100%;
   height: 200px;
-  max-height: 100px;
+  max-height: 200px;
+}
+
+#WdCarousel iframe {
+  width: 100%;
+  height: 200px;
+  max-height: 200px;
 }
 
 #WdCarousel {
-  position: relative;
+ position: relative;
   float:left;
-  width: 20%;
-  height: 100px;
-  max-height: 100px;
+  width: 30%;
+  height: 200px;
+  max-height: 200px;
   margin: 5px;
 }
 
 #RoCarousel img {
   width: 100%;
   height: 200px;
-  max-height: 100px;
+  max-height: 200px;
 }
 
 #RoCarousel {
-  position: relative;
+ position: relative;
   float:left;
-  width: 20%;
-  height: 100px;
-  max-height: 100px;
-  margin: 5px;
-}
-
-#haCarousel img {
-  width: 100%;
+  width: 30%;
   height: 200px;
-  max-height: 100px;
+  max-height: 200px;
+  margin: 5px;
 }
 
 /****************END Styles for the Carousels*******************/
@@ -157,4 +163,9 @@ body {
 #mainImage{
   width:100%;
   height: 40%;
+}
+
+#lava{
+  position: relative;
+  left: 20px;
 }
