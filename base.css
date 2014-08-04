@@ -17,6 +17,7 @@ body {
   margin: 0 auto -60px;
   /* Pad bottom by footer height */
   padding: 0 0 60px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
@@ -38,6 +39,10 @@ body {
 #footer > .container {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+#intro {
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*#myCarousel h1{
@@ -173,5 +178,9 @@ body {
 
 #lava{
   position: relative;
-  left: 20px;
+  left: 10px;
+}
+
+.carousel-caption {
+  padding-bottom: 0px;
 }
