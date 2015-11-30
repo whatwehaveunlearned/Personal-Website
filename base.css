@@ -7,6 +7,18 @@ body {
   padding: 15px;
   padding-top: 15px;
 }
+h4 {
+  font-size: 1.5vw;
+}
+h6 {
+  font-size: 1vw;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
 
 /******************************* Sticky Footer Style *******************************/
 #wrap {
@@ -45,114 +57,38 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/*#myCarousel h1{
-  font-family: Gill Sans;
-  color:black;
-  text-shadow: -1px 0 lightgrey, 0 1px lightgrey, 1px 0 lightgrey, 0 -1px lightgrey
-}
-
-#myCarousel h3{
-  font-family: Gill Sans;
-  color:black;
-  text-shadow: -1px 0 lightgrey, 0 1px lightgrey, 1px 0 lightgrey, 0 -1px lightgrey
-}
-
-#myCarousel p{
-  font-family: Gill Sans;
-  color:black;
-  text-shadow: -1px 0 lightgrey, 0 1px lightgrey, 1px 0 lightgrey, 0 -1px lightgrey
-}
-
-#myCarousel #gazebo{
-  position: relative;
-  left:150px;
-  height:450px;
-  width: 800px;
-}
-
-#myCarousel #higgs{
-  position: relative;
-  left:200px;
-  height:450px;
-  width: 750px;
-}
-
-#myCarousel #neuron{
-  position: relative;
-  left:200px;
-  height:450px;
-  width: 700px;
-}*/
-
 /****************Styles for the Carousels*******************/
 
-#mainCarousel img {
+.myCarousel img {
   width: 100%;
-  height: 200px;
-  max-height: 225px;
-}
-
-#haCarousel img {
-  width: 100%;
-  height: 200px;
+  height: 100%;
   max-height: 200px;
 }
 
-#haCarousel {
-  position: relative;
-  float:left;
-  width: 30%;
-  height: 200px;
-  max-height: 200px;
-  margin: 5px;
-}
-
-#WdCarousel img {
-  width: 100%;
-  height: 200px;
-  max-height: 200px;
-}
-
-#WdCarousel iframe {
-  width: 100%;
-  height: 200px;
-  max-height: 200px;
-}
-
-#WdCarousel {
+.myCarousel {
  position: relative;
   float:left;
   width: 30%;
   height: 200px;
   max-height: 200px;
-  margin: 5px;
+  border: 2px solid black;
+  margin-left:1em;
+  margin-right: 4em;
+  margin-bottom: 1em;
 }
 
-#RoCarousel img {
+.myCarousel iframe {
   width: 100%;
-  height: 200px;
+  height: 100%;
   max-height: 200px;
-}
-
-#RoCarousel iframe {
-  width: 100%;
-  height: 200px;
-  max-height: 200px;
-}
-
-#RoCarousel {
- position: relative;
-  float:left;
-  width: 30%;
-  height: 200px;
-  max-height: 200px;
-  margin: 5px;
 }
 
 /****************END Styles for the Carousels*******************/
 
 .btn-group-vertical{
-  margin: 25px;
+  width: 100%;
+  margin: 2em auto;
+  font-size: 1vw;
 }
 
 .img_holder{
@@ -172,13 +108,62 @@ body {
 }
 
 #mainImage{
-  width:100%;
-  height: 40%;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.img-circle{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
 
 #lava{
-  position: relative;
-  left: 10px;
+  max-width:35%;
+  max-height:30%;
+  min-width: 35px;
+}
+
+.colLinks{
+  padding: 0;
+}
+
+.links{
+  display: inline;
+  width: 100%;
+  margin: 2em auto;
+}
+
+#github{
+  display: inline-block;
+  margin: 0.1em;
+  margin-top: 0.2em;
+}
+
+#githubImg{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    min-width: 20px;
+}
+
+#linkedin{
+  display: inline-block;
+  margin: 0.1em;
+  margin-top: 0.2em;
+}
+
+#linkedinImg{
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+#lava{
+  display: inline-block;
+  margin: 0.1em;
+  margin-top: 0.2em;
 }
 
 .carousel-caption {
